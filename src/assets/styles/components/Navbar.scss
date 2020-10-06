@@ -1,0 +1,21 @@
+@import '../Variables.scss'; 
+
+// estilos Navbar 
+nav{
+    width: 100vw;
+    height: 9vh;
+    position: fixed;
+    z-index: 5;
+    background-color:$textColor3;
+    top: 0;
+}
+.container-nav {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 88.58vw;
+    height: 9vh;
+    background-color:$textColor3;
+    margin-left: 4.100em;
+    margin-right: 4.100em; 
+  
+}

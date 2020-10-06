@@ -1,0 +1,118 @@
+@import '../Variables.scss'; 
+
+.slider{
+width: 100vw;
+max-height: 958px;
+margin-left: 0;
+margin-right: 0;
+
+padding: 0;
+display: flex;
+align-items: center;
+// position: absolute;
+overflow: hidden;
+margin-top: 80px;
+
+
+
+}
+.container-slideText{
+    display: flex;
+
+
+    
+}
+
+.slide{
+    min-width:100vw;
+
+    transition: 0.5s;
+    
+   
+   
+  
+}
+// texto slide
+.container-text{
+    width: 540px;
+    position: absolute;
+    margin-top: 15%;
+    color: $textColor3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+
+}
+
+.textSlide{
+   
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 3vw;
+
+   
+
+}
+.textSlide2{
+
+    font-size: 2.3em;
+    font-weight: 700;
+    margin-left: 3vw;
+
+}
+// botones de deslizamiento
+%btn-Styles{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-style: none;
+
+    background-color: rgba($color: #ffac8f, $alpha: 0.4);
+}
+
+#goLeft{
+    left:0;
+    @extend %btn-Styles;
+}
+
+#goRight{
+    right:0;
+    @extend %btn-Styles;
+}
+
+//boton  select 
+// .btnSelect1{
+ 
+//     text-decoration: none;
+//     color: $textColor3;
+//     font-size: 1.125rem;
+//     text-align: center;
+//     width: 145px;
+//     height: 45px; 
+//     background-color: $firstColor; 
+//     font-weight: 700;
+//     border-radius: 5pt;
+//     overflow: hidden;
+//     border-style: none;
+// }
+.btnSelect2{
+    margin-top: 3vh;
+    margin-left: 3vw;
+    text-decoration: none;
+    color: $textColor5;
+    font-size: 1.125rem;
+    text-align: center;
+    width: 145px;
+    height: 50px; 
+    background-color: $textColor3; 
+    font-weight: 700;
+    border-radius: 5pt;
+    overflow: hidden;
+    border-style: none;
+
+}

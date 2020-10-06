@@ -1,0 +1,43 @@
+.containerGoals{
+    margin-top: 550px;
+    position: absolute;
+    width: 100vw;
+    height: 663px;
+    display: inline-flex;
+    flex-direction: row;
+    background: url(../static/Pics/goals.png);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.containerBoxGoals{
+    width: 480px;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    margin-left:130%;
+    margin-top: 15vh;
+    margin-left: 180%;
+}
+
+
+
+.Goals{   
+    font-size: 36px;
+    line-height: 50px;    
+    letter-spacing: -0.015em;
+    color: #FFF8F8;
+}
+
+.styleGoals{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #333333;
+    margin-left: 4vw;
+    margin-top: 2vh;
+ }

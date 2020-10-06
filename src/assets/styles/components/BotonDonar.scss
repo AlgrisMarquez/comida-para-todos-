@@ -1,0 +1,21 @@
+@import '../Variables.scss'; 
+
+// boton donar
+.btnDonate{
+   text-decoration: none;
+   color: $textColor3;
+   font-size: 1.125rem;
+   text-align: center;
+   width: 145px;
+   height: 45px; 
+   background-color: $textColor5; 
+   font-weight: 700;
+   border-radius: 5pt;
+   overflow: hidden;
+   border-style: none;
+
+
+}
+
+// .containerBtnDonate{
+// }

@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import logoCPT from "../../images/logoCPT.png";
+import logoCPT from "../../assets/static/images/logoCPT.png";
+import '../../assets/styles/components/Logo.scss';
+
 
 const LogoHome = () => {
   return (

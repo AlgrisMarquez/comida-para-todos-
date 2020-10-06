@@ -1,0 +1,49 @@
+@import "../Variables.scss";
+
+.container-img-news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
+  background-color: $textColor7;
+}
+
+.img-news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
+  margin-left: 45px;
+  margin-right: 7px;
+  width: 20.9vw;
+  position: relative;
+}
+
+/*.img-news-2 {
+ display: flex;
+    justify-content: space-between;
+    margin-top: -90px;
+    margin-left: 8px;
+    margin-right: 7px;
+    width: 20.9vw;
+    height: 42vh;
+    position: relative;
+}
+
+.img-news-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
+  margin-left: 14px;
+  margin-right: 7px;
+  width: 20.9vw;
+  position: relative;
+}
+
+.img-news-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
+  margin-left: 23px;
+  margin-right: 7px;
+  width: 20.9vw;
+  position: relative;
+}

@@ -1,0 +1,130 @@
+@import '../Variables.scss'; 
+
+.containerBecome{
+    width: 100vw;
+    height: 971px;
+    margin-top: 1350px;
+}
+
+.container-titleSection{
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.container-section-imgText{
+    margin-left: 2vw;
+}
+
+
+.content-text{
+    width: 57%;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 19%;
+    font-size: 1.5rem;
+    line-height: 36pt;
+    padding-bottom: 6%;
+}
+
+.content-section-img-text{
+    text-align: center;
+    margin-left: -62px;
+    font-size: 0.7rem;
+    padding-right: 55px;
+    width: 100%;
+    margin-left: -7%;
+    padding-bottom: 19%;
+}
+.title-becamePart{
+    text-align: center; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem; 
+    font-weight: 400;
+    line-height: 72px;
+    color: #333333;
+    width: 100%; 
+    margin-top: -3%;
+ 
+}
+
+/*h2{
+    padding-bottom: 3%;
+    text-align: center; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 3rem; 
+    font-weight: 400;
+    line-height: 72px;
+    color: #333333; 
+    margin: 0;
+
+}*/
+
+/*h3{
+    padding-bottom: 3%;
+    text-align: center; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem; 
+    font-weight: 400;
+    line-height: 72px;
+    color: #4F4F4F;
+    width: 100%; 
+   
+}
+.title-becamePart{
+    padding-bottom: 3%;
+    text-align: center; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem; 
+    line-height: 72px;
+    color: $textColor3;
+    width: 100%; 
+ 
+}*/
+ .title-section-img-text{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    text-align: center;
+    margin-left: -22%;
+    margin-left: -9%;
+ }
+.section{
+    display:flex; 
+     flex-wrap: nowrap; 
+
+}
+.section-img-text{
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 14%;
+    padding-bottom: 8%;
+    height: 20%;
+    justify-content: space-around;
+   
+    margin-left: 81px;
+    color: $textColor1;
+
+}
+.section-img{
+    display: flex; 
+}
+.img-section{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; 
+
+}
+
+.button-becamePart{
+    width: 67%;
+    height: 50px;
+   
+    background-color: $textColor3;
+    border: 1px solid $textColor; 
+    border-radius: 5px;
+    font-weight: 185px;
+    margin-left: 7%;
+    color:$textColor5; 
+    font-weight: 500;
+
+}

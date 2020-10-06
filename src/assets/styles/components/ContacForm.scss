@@ -1,0 +1,84 @@
+@import '../Variables.scss'; 
+
+
+
+// box imput formulario 
+.textLabelInput{
+    font-size: 1.125rem;
+     font-weight: 500;
+     color:$textColor4;
+
+}
+.inputBox {
+    width: 24vw;
+    max-height:58px ;
+    background-color: $textColor3;
+    color: $textColor4;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 6px;
+    border-style: none;
+    overflow: hidden;
+
+}
+.container-Form{
+  
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-top: 20vh;
+   
+}
+// textos  seccion  formulario de contacto 
+.text1form{
+    color: $textColor3 ;
+    font-size: 2.25rem;
+    font-Weight: 700;
+    margin-bottom: 5vh;
+    margin-top: 15vh;   
+
+}
+.text2form{
+    color: $textColor1;
+    font-size:1.5rem;
+    font-weight: 400;
+    
+}
+.container-texts{
+
+    margin-top: 10vh;
+    margin-left: 5vw;
+    width: 670px;
+}
+// container  seccion 
+.container-seccionForm{
+    display:flex;
+    width: 100vw;
+    height: 459px;
+    margin-top: 6749px;
+    margin-bottom: 500px;
+    background: url(../../static/images/imgContactForm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+// estilos  boton 
+
+.btnSubscribe{
+    width: 185px;
+    height:50px ;
+    color:$textColor5;
+    border: 1px solid $textColor;
+    background-color: $textColor3;
+    border-radius: 5pt;
+    font-size: 1.125rem;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    overflow: hidden;
+
+}
+.container-btnSubs{
+    margin-top: 5vh;
+}

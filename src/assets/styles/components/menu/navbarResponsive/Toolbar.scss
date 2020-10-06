@@ -1,0 +1,63 @@
+@import '../../../Variables.scss';
+ 
+
+.toolbar{
+    top:0;
+    left:0;
+    position: fixed;
+    width: 100%;
+    background-color: $textColor3;
+    height: 56px;
+}
+
+.toolbar_navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+margin-top: 1rem;
+
+
+}
+.toolbar_logo  {
+   margin-left: 0.5rem;
+}
+.toolbar_navigation-items ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+.toolbar_navigation-items li{
+    padding: 0 1rem;
+   
+}
+.spacer{
+    flex: 1;
+}
+.toolbar_navigation-items a{
+    color:$textColor4;
+    text-decoration: none;
+}
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+    color:$textColor5;
+
+}
+.controlItems{
+    margin: 0;
+    padding: 0;
+}
+.toggle-navbar{
+    display: none;
+}
+@media (max-width:768px){
+    .controlItems{
+        display:none;
+    }
+    .toggle-navbar{
+        display: block;
+    }
+
+
+}

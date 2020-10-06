@@ -1,0 +1,20 @@
+@import '../../Variables.scss'; 
+
+// estilos link navbar
+
+.navBar{
+    margin-top: 2vh;
+    font-size: 0.8rem;
+    display: flex;
+    width: 70vw;
+    color: $textColor1;
+    margin-left: 3vw;
+
+}
+
+.linkMenu {
+    text-decoration: none;
+    color: $textColor1;
+    margin-top: 20px;
+    margin-left: 5vw;
+}

@@ -1,0 +1,33 @@
+@import '../../assets/styles/Variables.scss'; 
+
+.containerDetails{
+    width: 100vw;
+height: 430px;
+margin-top: 30vh;
+position: absolute;
+}
+.containerBoxDetails{
+    margin-left: 3vw;
+}
+.boxContainerDetail {
+    display:inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    //margin-block-end: 10.45rem;
+    position: relative;
+}
+.container1 {
+    margin-left: 2vw;
+    width: 6rem;
+    height: 6rem;
+    text-align:center;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FCC3AD 17.76%, rgba(239, 203, 190, 0) 93.8%);
+}
+
+.imgDetail {
+    width: 50%;
+    height: 50%;
+    margin-top: 3.35rem;
+  
+}

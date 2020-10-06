@@ -1,0 +1,65 @@
+@import '../Variables.scss'; 
+.container-Testimonial{
+    margin-top: 5344px;
+    width: 100vw;
+    height: 1102px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+
+   
+
+}
+.container-circleText{
+    display: flex;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 5%;
+  
+}
+.container-testimonialsText{
+ width: 500px ;
+ height: 500px;
+ border-radius:225pt ;
+ background-color: rgba(225,225,225, 0.8);
+ display: flex;
+ position: absolute;
+ align-items: flex-start;
+ flex-direction: column;
+ padding: 3em;
+
+}
+// estilos tag "p" de testimonials
+.testimonial{
+    text-align: center;
+    color:$textColor1;
+    font-size: 2em;   
+    margin-top: 30%;
+}
+.testimonialName{
+    color:$textColor3;
+    font-size: 1em;
+    margin-top: 5%;
+    margin-left: 60%;
+
+}
+.testimonialWhere{
+    text-align: flex-end;
+    color:$textColor1;
+    font-size: 1em;
+    margin-top: 1%;
+    margin-left: 60%;
+    
+}
+// estilos  imagen  
+.img-testimonial{
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100vw;
+    height: auto;
+    position: absolute;
+   
+}

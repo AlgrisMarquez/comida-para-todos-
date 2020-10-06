@@ -1,0 +1,16 @@
+@import '../../Variables.scss'; 
+
+// estilos RRSS NavBar desktop
+.boxContainerRRSS{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    margin-right: 50px;
+    margin-left: 4vw;  
+    flex-direction: row; 
+}
+.containerRRSS {
+    //margin-top: 2vh;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
